@@ -22,7 +22,8 @@ FOR %%I in (*.mkv) DO (
 	echo %%I
 	mkvmerge --audio-tracks %audio_track_to_keep%  ^
 	--subtitle-tracks %sub_track_to_keep% ^
-	-o "new_folder\%%I" "%%I"
+	-o "new_folder\%%I" ^
+	"%%I"
 )
 
 echo. & echo "Setting default subtitle track next!" & echo.
