@@ -7,3 +7,5 @@ The defaults should work fine for most cases but there might be some exceptions 
 weebify.bat will create a folder called new_folder and will create the newly multiplexed files inside as the original files cannot be overwritten (Removes unwanted tracks + sets default tracks)
 
 set_default_track.bat does in place default audio/subtitle track modifying (Only changes the default tracks, DOES NOT REMOVE TRACKS)
+
+TLDR: Use weebify.bat if you want to save space and remove the english tracks, if you wish to keep the tracks, use set_default_track.bat
